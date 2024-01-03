@@ -37,7 +37,7 @@
 
 5. **Execution:**
    - Make the script executable: `chmod +x power-on-server.sh`
-   - Run the script periodically (e.g., every 5 minutes) using a cron job or manually: ./SmartWOL.sh
+   - Run the script periodically (e.g., every 5 minutes) using a cron job or manually: `./SmartWOL.sh`
 
 ## 🚀 Usage
 
