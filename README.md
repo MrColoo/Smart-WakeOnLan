@@ -20,22 +20,24 @@
 
 1. **UPS Configuration:**
    - Set the `UPS_IP` variable with your UPS's IP.
-   - Ensure NUT is set up on your NAS.
+   - Set up Network UPS Tools (NUT) on your NAS or Server and connect the UPS.
 
 2. **Server Configuration:**
    - Update `HOSTS`, `NICKNAMES`, and `MACADDRS` arrays with your server details.
-   - Confirm Wake-on-LAN (WOL) is enabled.
+   - Ensure Wake-on-LAN (WOL) is enabled on your servers.
 
 3. **Telegram Bot Configuration:**
-   - Create a Telegram bot and replace `[Your Token]` and `[Your Chat ID]`.
+   - Create a Telegram bot using the BotFather on Telegram.
+   - Replace [Your Token] and [Your Chat ID] with your actual API token and chat ID.
 
 4. **Dependency Installation:**
    - Install the wakeonlan tool (e.g., `sudo apt-get install wakeonlan`).
+   - Install the nut-client tool (e.g., `sudo apt-get install nut-client`).
    - Ensure the ping command is available.
 
 5. **Execution:**
    - Make the script executable: `chmod +x power-on-server.sh`
-   - Run the script periodically (e.g., every 5 minutes) using a cron job.
+   - Run the script periodically (e.g., every 5 minutes) using a cron job or manually: ./Smart-WOL.sh
 
 ## 🚀 Usage
 
@@ -45,11 +47,10 @@
 ## 📝 Important Notes
 
 - Customize the script based on your server setup.
-- Check the [full documentation](link_to_docs) for detailed instructions.
 
 ## 🧑‍💻 Author
 
-[Your Name]
+MrColo
 
 ## 📄 License
 
