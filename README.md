@@ -4,7 +4,7 @@
 ## 🌟 Features
 
 - **UPS Monitoring:** Check UPS status and detect power loss.
-- **Server Wake-up:** Use Wake-on-LAN to power up servers only if UPS in in On-Line Mode.
+- **Server Wake-up:** Use Wake-on-LAN to power up servers automatically only if UPS is in On-Line Mode. When on Battery it only send an alert without trying to start-up the servers.
 - **Telegram Notifications:** Get real-time alerts for power events and server status.
   - ***Power outages***
   - ***Server Wake ups***
